@@ -2,6 +2,9 @@
 
 set -eou pipefail
 
+
+etc/wsl.conf.d/startup.sh
+
 install -v -D -b -o root -g root -m 644 etc/wsl.conf /etc/wsl.conf
 install -v -D -b -o root -g root -m 755 etc/wsl.conf.d/startup.sh /etc/wsl.conf.d/startup.sh
 
