@@ -10,7 +10,7 @@ cd resolve-dns-wsl
 cat install.sh
 cat /etc/wsl.conf.d/startup.sh
 ```
-3. If their contents look ok, add execution permissions and executing install using sudo`
+3. If their contents look ok, add execution permissions and executing install using `sudo`
 ```bash
 chmod +x install.sh
 sudo ./install.sh
